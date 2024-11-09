@@ -123,11 +123,11 @@ The statistical tests show that:
 - Mann-Whitney U Test: [Interpretation, e.g., “This non-parametric test further validated the results.”]
 ### Summary of Test Results
 | Test | Statistical value | p-value | Interpretation |
-|------------------|------------------|-------------|---------------------|
-| Chi-Squared Test |	...	 | ...	| Significant/Not Significant |
-| Shapiro-Wilk |	...	| ...	| Normality Assumption Met/Violated |
-| Levene’s Test z |	...	| ...	| Equal Variance Assumption Met/Violated |
-| Mann-Whitney U Test |	... |	... |	Additional confirmation |
+|------------------|--------------------|-----------------|---------------------|
+| Chi-Squared Test |	15.380058330295297	 | 8.79111873073015e-05	| Significant/Not Significant |
+| Shapiro-Wilk |	0.3609798550605774	| 1.9833014370710005e-38	| Normality Assumption Met/Violated |
+| Levene’s Test z |	16.30104671627505	| 5.817164338905031e-05	| Equal Variance Assumption Met/Violated |
+| Mann-Whitney U Test |	136500.0000 |	0.0001 |	Additional confirmation |
 
 ## Conclusion
 The project demonstrates the application of A/B testing techniques to evaluate differences in conversion rates. The results suggest that the test group outperformed the control group in conversion, providing insights into the effectiveness of A/B testing in decision-making.
